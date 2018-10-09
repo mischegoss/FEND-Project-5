@@ -199,6 +199,7 @@ const more = document.createElement('a');
  more.innerHTML = 'View Details';
  more.href = DBHelper.urlForRestaurant(restaurant);
  more.tabIndex = '3';
+ more.setAttribute('role', 'a link');
 
  li.append(more);
 
