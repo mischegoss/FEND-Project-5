@@ -1,13 +1,18 @@
-/*if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').catch(function(error) {
+
+
+let restaurants, neighborhoods, cuisines;
+var newMap;
+var markers = [];
+
+ /*Service Worker Installation */
+ if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+  .register('/serviceworker.js')
+  .catch(function(error) {
     console.log(error);
   });
   console.log('Service worker: registered');
 }
-*/
-let restaurants, neighborhoods, cuisines;
-var newMap;
-var markers = [];
 
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
