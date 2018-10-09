@@ -80,6 +80,10 @@ nav h1 a {
   letter-spacing: 10px;
   text-transform: uppercase;
 }
+
+#header-img{
+	width:100%;
+}
 #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
