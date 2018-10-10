@@ -63,6 +63,14 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 
 }
 
+h2 {
+	color: #fff;
+	font-size: 14pt;
+	font-weight: 200;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
@@ -180,7 +188,7 @@ nav h1 a {
   max-width: 100%;
 
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 14pt;
