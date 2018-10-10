@@ -4,7 +4,7 @@ let restaurants, neighborhoods, cuisines;
 var newMap;
 var markers = [];
 
- /*Service Worker Installation */
+ /*Installs Service Worker */
  if ('serviceWorker' in navigator) {
   navigator.serviceWorker
   .register('/serviceworker.js')
